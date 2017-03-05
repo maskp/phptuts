@@ -1,0 +1,141 @@
+<?php 
+// $array = ['apple' => 1,'ball' => 4, 'kite' => 9];
+// // foreach($array as $key => $val){
+// //   print "$key = $val\n";
+// // while(list($var,$val) = each($array)){
+// //   print "$val belongs to $var key \n";  
+// // }
+// $array["pears"] = 7;
+// foreach($array as $val=>$var){
+//   print "$val:$var\n" ;
+// }
+//   var_dump($array);
+
+
+// //array functions
+
+// $arr = array("lann","bocherry");
+// $vrr = array("raquedevine","lann");
+// $var = array_intersect($arr,$vrr);
+// var_dump( $var);
+// $car = array_diff($arr,$vrr);
+// var_dump($car);
+
+// $mar = array_merge($arr,$vrr);
+// var_dump($mar);
+
+// $jar = array_unique($mar);
+// print_r($jar);
+// function endswithn($value){
+//   return (substr($value,-1) == 'y');
+  
+// }
+ $people = array("Johnny", "Timmy", "Bobby", "Sam", "Tammy", "Danny", "Joe");
+//     $withy = array_filter($people, "endswithn");
+//     var_dump($withy);
+// if(in_array("Johnny",$people)){
+//   echo 'we found a match';
+// }
+//     $capitalcities['England'] = 'London';
+//     $capitalcities['Wales'] = 'Cardiff';
+//     $capitalcities['Scotland'] = 'Edinburgh';
+//     ksort($capitalcities);
+//     var_dump($capitalcities);
+//     asort($capitalcities);
+//     var_dump($capitalcities);
+// $users[923] = 'TelRev';
+//     $users[100] = 'Skellington';
+//     $users[1202] = 'CapnBlack';
+//     $userids = array_keys($users);
+//     var_dump($userids);
+
+// class dog{
+//   public $_Name;
+//   public function bark(){
+//     echo "woof!";
+//   }
+// }
+
+// class poodle extends dog{
+//   public function bark(){
+//     echo "yip ";
+//   }
+// }
+
+// $poppy = new poodle;
+// $poppy->bark();
+// $poppy->Name = "Bircho";
+
+// class dog{
+//   public $name;
+//   public $dogtoa;
+//   public function dogtoa($nam){
+//     $this->name = $nam;
+//     $dogtoa -> words = "My name is $nam if you find me please call my owners";
+//   }
+// }
+
+// $nammy = new dog;
+// $nammy->name;
+// echo $nammy->nam
+
+  // class dog {
+  //       public $Name;
+  //       public function getName() {
+  //           return $this->Name;
+  //       }
+  //   }
+
+  //   class poodle extends dog {
+  //       public function bark() {
+  //           return "'Woof', says " . $this->getName();
+  //       }
+  //   }
+    
+  //   $paps = new poodle;
+  //   print $paps->bark();
+  //   print $paps->Name;
+  class user{
+    public function login($usr,$pass){
+      $this->auth($usr,$pass);
+    }
+    
+    public function auth($usr,$pass){
+      echo "user is authenticated";
+    }
+  }
+
+  $puneet = new user;
+  $puneet->login('puneet','itsgone!!!!');
+
+
+// class dogtag{
+//   public $words;
+// }
+ 
+// class dog{
+//   public $name;
+//   public $Dogtag;
+   
+//   public function __construct($Dogname){
+//     $this->name = $Dogname;
+//     $this->Dogtag = new dogtag;
+//     $this->Dogtag->words = "askjdhf $Dogname";
+//   }
+// }
+ 
+// class poodle extends dog{
+   
+// }
+ 
+// $poppy = new poodle('poppy');
+// var_dump($poppy->Dogtag->words);
+// //print $poppy->Dogtag->words. "\n";
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ?>
